@@ -1,0 +1,45 @@
+﻿h1,h2,p,input {
+    padding: 0;
+    margin: 0;
+}
+
+.aspNetHidden {
+    display: none;
+}
+
+body {
+    display: flex;
+    font-family: "Poppins", sans-serif;
+}
+
+#formPreventivo {
+    width: 35%;
+    background-color: azure;
+}
+
+#formPreventivo div {
+    border-radius: 10px;
+    background-color: gainsboro;
+    margin: 10px 0;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#preventiviImg {
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+    #preventiviImg img {
+        width: 90%;
+        border-radius: 20px;
+    }
+
+#showPreventivo {
+    display: flex;
+    flex-direction: column;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
